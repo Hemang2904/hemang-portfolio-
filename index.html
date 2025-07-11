@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hemang Shukla - Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f0f4f8;
+        }
+        .section-title {
+            @apply text-3xl font-bold text-gray-800 mb-6 border-b-2 border-blue-600 pb-2;
+        }
+        .card {
+            @apply bg-white p-6 rounded-lg shadow-md mb-6;
+        }
+        .list-item {
+            @apply flex items-start mb-2;
+        }
+        .list-icon {
+            @apply text-blue-600 mr-3 mt-1;
+        }
+    </style>
+</head>
+<body class="flex flex-col items-center p-4">
+    <div class="bg-white p-8 rounded-lg shadow-xl max-w-4xl w-full text-center mb-8">
+        <h1 class="text-5xl font-bold text-gray-800 mb-2">Hemang Shukla</h1>
+        <p class="text-xl text-gray-600 mb-4">Machine Learning Engineer | Data Scientist</p>
+        <div class="flex flex-wrap justify-center gap-4 text-gray-700">
+            <a href="mailto:hemangshukl@gmail.com" class="flex items-center hover:text-blue-600 transition duration-300">
+                <svg class="w-5 h-5 mr-1" fill="currentColor" viewBox="0 0 20 20"><path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z"></path><path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z"></path></svg>
+                hemangshukl@gmail.com
+            </a>
+            <a href="tel:+917498240670" class="flex items-center hover:text-blue-600 transition duration-300">
+                <svg class="w-5 h-5 mr-1" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M17.414 2.586a2 2 0 00-2.828 0L7 10.172V13h2.828l7.586-7.586a2 2 0 000-2.828zM11.828 15H15v-3.172l-7-7L4.828 7H8v4h3.828z" clip-rule="evenodd"></path></svg>
+                +917498240670
+            </a>
+            <a href="https://linkedin.com/in/hem2904" target="_blank" class="flex items-center hover:text-blue-600 transition duration-300">
+                <svg class="w-5 h-5 mr-1" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.3 14.7a.75.75 0 01-.22.53l-2.5 2.5a.75.75 0 01-1.06 0l-2.5-2.5a.75.75 0 011.06-1.06L12.5 14.44V9.5a.75.75 0 011.5 0v4.94l1.12-1.12a.75.75 0 011.06 1.06zM3.7 5.3a.75.75 0 01.22-.53l2.5-2.5a.75.75 0 011.06 0l2.5 2.5a.75.75 0 01-1.06 1.06L7.5 5.56V10.5a.75.75 0 01-1.5 0V5.56L4.38 6.68a.75.75 0 01-1.06-1.06z" clip-rule="evenodd"></path></svg>
+                LinkedIn
+            </a>
+        </div>
+    </div>
+
+    <div class="max-w-4xl w-full px-4">
+        <!-- Education Section -->
+        <section class="mb-8">
+            <h2 class="section-title">Education</h2>
+            <div class="card">
+                <h3 class="text-xl font-semibold text-gray-800">Post Graduate diploma in Machine learning</h3>
+                <p class="text-gray-600">Royal Holloway University of London</p>
+                <p class="text-gray-500 text-sm">Sep 2022 - Sep 2024</p>
+            </div>
+            <div class="card">
+                <h3 class="text-xl font-semibold text-gray-800">Bachelors of Engineering in Electronics and Telecommunication</h3>
+                <p class="text-gray-600">St Francis Institute of Technology</p>
+                <p class="text-gray-500 text-sm">2018 - 2022</p>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section class="mb-8">
+            <h2 class="section-title">Skills</h2>
+            <div class="card flex flex-wrap gap-3 justify-center">
+                <span class="bg-blue-100 text-blue-800 text-sm font-medium px-3 py-1 rounded-full">Python</span>
+                <span class="bg-blue-100 text-blue-800 text-sm font-medium px-3 py-1 rounded-full">SQL</span>
+                <span class="bg-blue-100 text-blue-800 text-sm font-medium px-3 py-1 rounded-full">C++</span>
+                <span class="bg-blue-100 text-blue-800 text-sm font-medium px-3 py-1 rounded-full">Java</span>
+                <span class="bg-blue-100 text-blue-800 text-sm font-medium px-3 py-1 rounded-full">Pandas</span>
+                <span class="bg-blue-100 text-blue-800 text-sm font-medium px-3 py-1 rounded-full">TensorFlow</span>
+                <span class="bg-blue-100 text-blue-800 text-sm font-medium px-3 py-1 rounded-full">PyTorch</span>
+                <span class="bg-blue-100 text-blue-800 text-sm font-medium px-3 py-1 rounded-full">Scikit-learn</span>
+                <span class="bg-blue-100 text-blue-800 text-sm font-medium px-3 py-1 rounded-full">CLASSIQ</span>
+                <span class="bg-blue-100 text-blue-800 text-sm font-medium px-3 py-1 rounded-full">Tableau</span>
+            </div>
+        </section>
+
+        <!-- Employment Section -->
+        <section class="mb-8">
+            <h2 class="section-title">Employment</h2>
+            <div class="card">
+                <h3 class="text-xl font-semibold text-gray-800">Data Science Intern</h3>
+                <p class="text-gray-600">Zytex Corporation</p>
+                <p class="text-gray-500 text-sm">Feb 2021 - Apr 2021</p>
+                <ul class="list-disc list-inside text-left text-gray-700 mt-2">
+                    <li class="mb-1">Conducted detailed analyses of product data, identifying patterns and trends to maintain high-quality standards, resulting in an 11% improvement in product consistency.</li>
+                    <li>Learned and applied best practices for managing and maintaining databases to ensure data integrity and reliability, regularly creating and maintaining backups to safeguard critical data, and enhancing data security.</li>
+                </ul>
+            </div>
+            <div class="card">
+                <h3 class="text-xl font-semibold text-gray-800">Operational Management Intern</h3>
+                <p class="text-gray-600">Charlie Motors</p>
+                <p class="text-gray-500 text-sm">Dec 2021 - Jan 2021</p>
+                <ul class="list-disc list-inside text-left text-gray-700 mt-2">
+                    <li class="mb-1">Managed day-to-day operations, focusing on designing and controlling production processes to ensure smooth and efficient workflow, improving operational efficiency.</li>
+                    <li>Implemented strategies to optimize resource allocation and performance monitoring, ensuring efficient business operations and customer satisfaction levels were maintained.</li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Project Experiences Section -->
+        <section class="mb-8">
+            <h2 class="section-title">Project Experiences</h2>
+            <div class="card">
+                <h3 class="text-xl font-semibold text-gray-800">ML dev at UK National Quantum Computing Hackathon</h3>
+                <ul class="list-disc list-inside text-left text-gray-700 mt-2">
+                    <li class="mb-1">Represented CGI UK IT Ltd. at the UK National Quantum Computing Hackathon 2024.</li>
+                    <li class="mb-1">Collaborated with AWS (IQM), Classiq, and a cross-functional team to develop quantum solutions for forecasting energy supply demand, and pricing.</li>
+                    <li>Explored input encodings and loss function definitions to simulate solutions and understand quantum resource requirements.</li>
+                </ul>
+            </div>
+            <div class="card">
+                <h3 class="text-xl font-semibold text-gray-800">Semantic Image Segmentation</h3>
+                <ul class="list-disc list-inside text-left text-gray-700 mt-2">
+                    <li class="mb-1">Implemented architectures like U-Net, Mask R-CNN, and DeepLabv3 for segmentation tasks.</li>
+                    <li class="mb-1">Used Python, TensorFlow, and PyTorch to develop models, fine-tuning accuracy, leveraging transfer learning for enhanced results.</li>
+                    <li>Evaluated metrics such as Intersection over Union (IoU) and pixel.</li>
+                </ul>
+            </div>
+        </section>
+    </div>
+</body>
+</html>
